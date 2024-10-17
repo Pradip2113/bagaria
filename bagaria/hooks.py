@@ -48,6 +48,8 @@ app_license = "mit"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+
+doctype_js = {"Sales Invoice" : "public/js/sales_invoice.js"}
 # Svg Icons
 # ------------------
 # include app icons in desk
@@ -165,7 +167,11 @@ app_license = "mit"
 # 		"bagaria.tasks.monthly"
 # 	],
 # }
-
+# scheduler_events = {
+#     "daily": [
+#         "bagaria.bagaria.intesert_cal.recalculate_interest"
+#     ]
+# }
 # Testing
 # -------
 
